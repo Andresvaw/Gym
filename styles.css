@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700;1,900&display=swap');
+
+:root{
+  --yellow: yellow;
+  --white: white;
+  --black: rgb(19, 19, 19);
+}
+
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(19, 18, 18);
+  flex-flow: column;
+}
+.flex {
+  position: sticky;
+  display: flex;
+  padding: 0 10%;
+  background-color: rgb(22, 22, 22);
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .navbar {
+    display: flex;
+  }
+  .flex .navbar a {
+    padding: 1.2rem;
+    font-weight: 500;
+    color: white;
+  }
+
+.hero-page {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(hero-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 37.5rem;
+}
+  .hero-text {
+    display: flex;
+    padding: 0 .4rem;
+    flex-flow: column;
+    color: white;
+  }
+    .hero-text h1 {
+      text-align: center;
+      font-size: 5rem;
+      padding: 0 2rem 1.5rem 2rem;
+      text-shadow: 1px 1px 2px black;;
+    }
+    .hero-text p {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .box-button{
+      display: flex;
+      justify-content: center;
+    }
+      .button {
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+        border-radius: .3rem;
+        border: 2px solid white;
+      }
+        .button a {
+          color: white;
+          font-size: 1.2rem;
+          padding: .2rem 1rem;
+        }
+
+        .button a:hover {
+          background-color: rgba(254, 254, 254, 0.053);
+        }
+@media (max-width: 600px) {
+  .hero-page {
+    height: 28rem;
+    align-items: initial;
+  }
+  .hero-text {
+    margin-top: 8rem;
+  }
+  .hero-text h1 {
+    font-size: 4rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
