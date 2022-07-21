@@ -51,7 +51,7 @@ body {
     display: flex;
     padding: 0 .4rem;
     flex-flow: column;
-    color: white;
+    color: red;
   }
     .hero-text h1 {
       text-align: center;
