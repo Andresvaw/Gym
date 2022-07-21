@@ -23,6 +23,7 @@ body {
   flex-flow: column;
 }
 .flex {
+  width: 100vw;
   position: sticky;
   display: flex;
   padding: 0 10%;
