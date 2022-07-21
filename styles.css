@@ -82,10 +82,9 @@ body {
         .button a:hover {
           background-color: rgba(254, 254, 254, 0.053);
         }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .hero-page {
     height: 28rem;
-    
   }
   .hero-text {
     margin-top: 8rem;
