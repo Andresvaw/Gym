@@ -86,7 +86,7 @@ body {
 @media (max-width: 600px) {
   .hero-page {
     height: 28rem;
-    align-items: initial;
+    
   }
   .hero-text {
     margin-top: 8rem;
