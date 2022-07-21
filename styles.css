@@ -44,7 +44,7 @@ body {
   background-position: center center;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 37.5rem;
 }
   .hero-text {
